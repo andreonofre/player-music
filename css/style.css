@@ -1,0 +1,86 @@
+body {
+    background-color: #0F0D13;
+    color: #fff ;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 266px 356px;
+}
+
+.rigth{
+   gap: 10px;
+   margin-left: 32px;
+}   
+
+.caixa1 {
+    height: 498px;
+    background-color: #2A2141;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.caixa1 img {
+   margin: 30px;
+   margin-left: 35px;
+}
+
+.caixa1 .name-music {
+    /* text-align: start; */
+    justify-content: center;
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+
+.caixa2 {
+    width: 357px;
+    height: 266px;
+    background-color: #2A2141;
+    margin-bottom: 32px;
+    border-radius: 5px;
+}
+
+.caixa2 img {
+    margin: 30px;
+}
+
+.caixa2 .img-text {
+    align-items: center;
+
+}
+
+.caixa3 {
+    width: 357px;
+    height: 199px;
+    background-color: #2A2141;
+    border-radius: 5px;
+
+}
+
+.caixa3 img {
+    margin: 30px;
+}
+
+.caixa3 .img-text {
+    align-items: center;
+
+}
+
+.name-music {
+    font-size: 1rem;
+    line-height: 4px;
+}
+
+
+.btn-player {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    justify-content: center;
+}
+
+
+.img-text {
+    display: flex;
+    gap: 5px; 
+}
