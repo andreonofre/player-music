@@ -1,12 +1,20 @@
 body {
     background-color: #0F0D13;
     color: #fff ;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
     display: grid;
     grid-template-columns: 266px 356px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
 
 .rigth{
    gap: 10px;
@@ -22,7 +30,7 @@ body {
 
 .caixa1 img {
    margin: 30px;
-   margin-left: 35px;
+   margin-left: 38.5px;
 }
 
 .caixa1 .name-music {
@@ -46,7 +54,6 @@ body {
 
 .caixa2 .img-text {
     align-items: center;
-
 }
 
 .caixa3 {
@@ -68,7 +75,7 @@ body {
 
 .name-music {
     font-size: 1rem;
-    line-height: 4px;
+    line-height: 10px;
 }
 
 
@@ -84,3 +91,51 @@ body {
     display: flex;
     gap: 5px; 
 }
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+
+.caixa1 .time {
+    margin-top: 5px;
+}
+
+.caixa2 .time {
+    margin-top: 10px;
+}
+
+
+.track {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.track::before {
+    content: "";
+    height: 6px;
+    width: 80%;
+    display: block;
+    background-color: #D9D9D9;
+    opacity: 0.3;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 26px;
+}   
+
+.track::after {
+    content: "";
+    height: 6px;
+    width: 60%;
+    display: block;
+    background-color: #b3b3c0;
+    border-radius: 10px;
+    margin-left: 26px;
+
+}
+
